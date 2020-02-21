@@ -97,7 +97,30 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@media query {
 
+}
+
+
+header {
+  display:flex;
+ justify-content: space-between;
+ padding: 2em;
+}
+
+h1 {
+  text-align: center;
+}
+
+.slogan{
+  text-align: center;
+}
+
+.img_fond{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -262,4 +285,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
